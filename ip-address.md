@@ -93,15 +93,18 @@ Example: When you type **[www.google.com](http://www.google.com)**:
 
 ## 6. Classes of IPv4 Address
 
-| Class | First Octet Range | Default Subnet Mask | Usage                 |
-| ----- | ---------------- | ----------------- | --------------------- |
-| A     | 1 – 126          | 255.0.0.0         | Very large networks   |
-| B     | 128 – 191        | 255.255.0.0       | Medium networks       |
-| C     | 192 – 223        | 255.255.255.0     | Small networks        |
-| D     | 224 – 239        | N/A               | Multicast             |
-| E     | 240 – 255        | N/A               | Research/Experimental |
+| Class | First Octet Range | Full IP Address Range              | Default Subnet Mask | Usage                 |
+|-------|------------------|------------------------------------|---------------------|-----------------------|
+| A     | 1 – 126          | 1.0.0.0 – 126.255.255.255          | 255.0.0.0 (/8)      | Very large networks   |
+| B     | 128 – 191        | 128.0.0.0 – 191.255.255.255        | 255.255.0.0 (/16)   | Medium networks       |
+| C     | 192 – 223        | 192.0.0.0 – 223.255.255.255        | 255.255.255.0 (/24) | Small networks        |
+| D     | 224 – 239        | 224.0.0.0 – 239.255.255.255        | N/A                 | Multicast             |
+| E     | 240 – 255        | 240.0.0.0 – 255.255.255.255        | N/A                 | Research/Experimental |
 
-⚠️ Note: `127.0.0.0/8` → reserved for **loopback (localhost)**.
+⚠️ Notes:
+- `127.0.0.0 – 127.255.255.255` → Reserved for **loopback (localhost)**.
+- `0.0.0.0` → Used as a default route (unspecified address).
+
 
 ---
 
