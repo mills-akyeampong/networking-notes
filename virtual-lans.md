@@ -1,5 +1,4 @@
 # Virtual LANs (VLANs)
->>>>>>> f76130d (Added Connectors note to beginner folder)
 
 ---
 
