@@ -1,7 +1,7 @@
-# Subnetting Explained: A Step-by-Step Guide
+# Subnetting:
 
 ## Table of Contents
-- [Subnetting Explained: A Step-by-Step Guide](#subnetting-explained-a-step-by-step-guide)
+- [Subnetting:](#subnetting)
   - [Table of Contents](#table-of-contents)
   - [Basics of IP Addresses](#basics-of-ip-addresses)
   - [Why Subnetting is Needed](#why-subnetting-is-needed)
