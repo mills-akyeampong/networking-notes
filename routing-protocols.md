@@ -30,6 +30,8 @@
     - [Q3: Can I use multiple routing protocols together?](#q3-can-i-use-multiple-routing-protocols-together)
     - [Q4: Is BGP used in private networks?](#q4-is-bgp-used-in-private-networks)
   - [✅ Conclusion](#-conclusion)
+  - [📊 Visual Diagram: Routing Protocol Classification](#-visual-diagram-routing-protocol-classification)
+  - [🧾 Routing Protocols Cheat Sheet](#-routing-protocols-cheat-sheet)
 
 ---
 
@@ -196,3 +198,45 @@ They dynamically adapt to changes, reduce administrative burden, and scale to su
 - Use **IGPs (like OSPF/EIGRP)** within your organization.
 - Use **BGP** for communication between ISPs or large-scale networks.
 - Understand **metrics**, **AD**, and **routing types** to optimize performance and security.
+
+
+---
+
+## 📊 Visual Diagram: Routing Protocol Classification
+
+```mermaid
+graph TD
+    A[Routing Protocols] --> B[Interior Gateway Protocols (IGPs)]
+    A --> C[Exterior Gateway Protocols (EGPs)]
+
+    B --> D[Distance Vector]
+    B --> E[Link State]
+    B --> F[Hybrid]
+
+    D --> G[RIP]
+    D --> H[IGRP]
+
+    E --> I[OSPF]
+    E --> J[IS-IS]
+
+    F --> K[EIGRP]
+
+    C --> L[BGP]
+```
+
+> **Note**: You can embed this Mermaid diagram directly in GitHub markdown or render it using tools like Obsidian, Typora, or VS Code with Mermaid support.
+
+---
+
+## 🧾 Routing Protocols Cheat Sheet
+
+| Category        | Protocol | Type | Metric Used                         | Max Hops | AD     | Open Standard | Notes                          |
+| --------------- | -------- | ---- | ----------------------------------- | -------- | ------ | ------------- | ------------------------------ |
+| Distance Vector | RIP      | IGP  | Hop Count                           | 15       | 120    | ✅ Yes         | Simple, slow convergence       |
+| Distance Vector | IGRP     | IGP  | Bandwidth, Delay                    | 100      | 100    | ❌ Cisco only  | Legacy, replaced by EIGRP      |
+| Link-State      | OSPF     | IGP  | Cost (Bandwidth)                    | ∞        | 110    | ✅ Yes         | Area support, fast convergence |
+| Link-State      | IS-IS    | IGP  | Cost                                | ∞        | 115    | ✅ Yes         | Used by ISPs                   |
+| Hybrid          | EIGRP    | IGP  | Bandwidth, Delay, Load, Reliability | 224      | 90     | ❌ Cisco only  | Combines DV + LS               |
+| Path Vector     | BGP      | EGP  | Path Attributes                     | ∞        | 20/200 | ✅ Yes         | Internet routing protocol      |
+
+---
