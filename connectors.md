@@ -1,7 +1,7 @@
 # Networking Connectors
 
 > **Author**: Mills Kojo Akyeampong  
-> **Role**: Security Systems & Network Engineer 
+> **Role**: Security Systems & Network Engineer
 > **License**:   
 > **Intended Audience**: Networking students, professionals, self-learners
 
