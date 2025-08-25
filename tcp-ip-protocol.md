@@ -1,8 +1,7 @@
 # TCP/IP Protocol Suite – Full Lecture Notes
 
 > **Author**: Mills Kojo Akyeampong  
-> **Role**: Security Systems & Network Engineer 
-> **License**:   
+> **Role**: Security Systems & Network Engineer    
 > **Intended Audience**: Networking students, professionals, self-learners
 
 ---
