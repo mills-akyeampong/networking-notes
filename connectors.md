@@ -1,9 +1,8 @@
 # Networking Connectors
 
 > **Author**: Mills Kojo Akyeampong  
-> **Role**: Security Systems & Network Engineer
-> **License**:   MIT License
-> **Intended Audience**: Networking students, professionals, self-learners
+> **Role**: Security Systems & Network Engineer 
+> **Intended Audience**: Networking students professionals, self-learners
 
 ---
 
