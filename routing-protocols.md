@@ -30,7 +30,6 @@
     - [Q3: Can I use multiple routing protocols together?](#q3-can-i-use-multiple-routing-protocols-together)
     - [Q4: Is BGP used in private networks?](#q4-is-bgp-used-in-private-networks)
   - [✅ Conclusion](#-conclusion)
-  - [📊 Visual Diagram: Routing Protocol Classification](#-visual-diagram-routing-protocol-classification)
   - [🧾 Routing Protocols Cheat Sheet](#-routing-protocols-cheat-sheet)
 
 ---
@@ -202,31 +201,6 @@ They dynamically adapt to changes, reduce administrative burden, and scale to su
 
 ---
 
-## 📊 Visual Diagram: Routing Protocol Classification
-
-```mermaid
-graph TD
-    A[Routing Protocols] --> B[Interior Gateway Protocols (IGPs)]
-    A --> C[Exterior Gateway Protocols (EGPs)]
-
-    B --> D[Distance Vector]
-    B --> E[Link State]
-    B --> F[Hybrid]
-
-    D --> G[RIP]
-    D --> H[IGRP]
-
-    E --> I[OSPF]
-    E --> J[IS-IS]
-
-    F --> K[EIGRP]
-
-    C --> L[BGP]
-```
-
-> **Note**: You can embed this Mermaid diagram directly in GitHub markdown or render it using tools like Obsidian, Typora, or VS Code with Mermaid support.
-
----
 
 ## 🧾 Routing Protocols Cheat Sheet
 
