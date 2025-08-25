@@ -2,7 +2,7 @@
 
 > **Author**: Mills Kojo Akyeampong  
 > **Role**: Security Systems & Network Engineer
-> **License**:   
+> **License**:   MIT License
 > **Intended Audience**: Networking students, professionals, self-learners
 
 ---
