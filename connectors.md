@@ -8,7 +8,6 @@
 ---
 
 ## 📚 Table of Contents
-
 - [Networking Connectors](#networking-connectors)
   - [📚 Table of Contents](#-table-of-contents)
   - [1. Introduction](#1-introduction)
